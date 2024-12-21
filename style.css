@@ -1,9 +1,11 @@
 body {
     background-color: rgb(248, 211, 166);
     font-family: 'Poppins', sans-serif;
-    margin: 5%;
+    margin: 0%;
     padding: 0;
     text-align: center;
+    font-weight: 500;
+    line-height: 1.6;
 }
 
 .title {
@@ -73,4 +75,68 @@ ul {
 
 .recipe-card a:hover {
     color: #ff4500;
+}
+
+.recipe-image {
+    width: 600px;
+    height: auto; 
+    margin: 0 auto;
+} 
+
+#chicken-page {
+    background-color: #e19f3b; 
+}
+
+ol {
+    margin: 0 auto;
+    padding: 0;
+    list-style-position: inside; 
+    text-align: center; 
+}
+
+
+p, ul, ol {
+    font-size: 18px; 
+}
+
+h1 {
+    font-size: 36px; 
+}
+
+h2 {
+    font-size: 28px; 
+
+}
+
+h1, h2, p, ul, ol {
+    font-weight: 500; 
+    line-height: 1.6; 
+}
+
+.recipe-image {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    border: 10px solid #dc7813; /* Light gray border */
+    padding: 15px; /* Adds space between image and border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth effect on hover */
+}
+
+.recipe-image:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
+h1, h2 {
+    margin-bottom: 50px;
+}
+
+#steak {
+    background-color: #c34436;
+}
+
+#pesto {
+    background-color: rgb(136, 231, 136);
 }
